@@ -1,0 +1,7 @@
+(defun func (x y)
+    (print (+ x y))
+    (print (- x y))
+    (print (* x y))
+    (print (/ x y))
+)
+(func 10 20)
