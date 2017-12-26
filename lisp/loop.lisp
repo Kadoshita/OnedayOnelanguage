@@ -1,0 +1,5 @@
+(setq i 0)
+(loop (if (= i 10)(return i))
+      (setq i (+ i 1))
+      (print i)
+)
